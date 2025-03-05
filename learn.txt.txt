@@ -2,11 +2,23 @@ steps
 =====
 1-check if git installed 
 git --version
-2-create a git repository if no project yet
+2-config git username and email
+git config --global user.name "username"
+git config --global user.email "email"
+
+3-create a git repository if no project yet
 git init projectname
-3-create a git repository if there is a project 
+4-create a git repository if there is a project 
 git init
-4-to see the status 
+5-to see the status 
 git status
-5- to add a single file that created in the directory(stagging_area)
+6- to add a single file that created in the directory(stagging_area)
 git add filename
+7-to add all files and folder
+git add .
+8-commit
+git commit -m "add a comment"
+9-git log to see the log
+git log
+git log filename
+git log -2
