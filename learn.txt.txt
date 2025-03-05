@@ -1,0 +1,12 @@
+steps
+=====
+1-check if git installed 
+git --version
+2-create a git repository if no project yet
+git init projectname
+3-create a git repository if there is a project 
+git init
+4-to see the status 
+git status
+5- to add a single file that created in the directory(stagging_area)
+git add filename
