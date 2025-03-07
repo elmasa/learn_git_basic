@@ -43,3 +43,8 @@ git branch -m current name new name
 18- to delete a branch 
 git branch -d branch name
 git branch -D branch name//force deleted a branch
+19-
+source --the branch we want to merge from 
+destination --the branch we want to merge into
+git merge source if not main branch we must specify the destination
+git merge learn_advance_feature master
