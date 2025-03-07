@@ -1,0 +1,45 @@
+steps
+=====
+1-check if git installed 
+git --version
+2-config git username and email
+git config --global user.name "username"
+git config --global user.email "email"
+
+3-create a git repository if no project yet
+git init projectname
+4-create a git repository if there is a project 
+git init
+5-to see the status 
+git status
+6- to add a single file that created in the directory(stagging_area)
+git add filename
+7-to add all files and folder
+git add .
+8-commit
+git commit -m "add a comment"
+9-git log to see the log
+git log
+git log filename
+git log -2
+git log -2 filename
+git log --since='' --until=''
+10-git show  058607f5714e
+11-git diff filename
+   git diff -staged
+   to exit we use q
+12-git revert 
+13-git checkout
+14-git restore --staged filename
+15-git branch 
+listing all branches
+git branch branch name create a new branch
+to switch between branch 
+git switch branch branch name
+ 16-to create and switch to the new branch 
+  git switch -c branch name 
+17- to rename a branch 
+git branch -m current name new name
+18- to delete a branch 
+git branch -d branch name
+git branch -D branch name//force deleted a branch
