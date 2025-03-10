@@ -48,3 +48,7 @@ source --the branch we want to merge from
 destination --the branch we want to merge into
 git merge source if not main branch we must specify the destination
 git merge learn_advance_feature master
+
+20-clone locally or remotely
+git clone loacalpath
+git clone url--remotely
