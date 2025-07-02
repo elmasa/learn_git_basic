@@ -52,3 +52,5 @@ git merge learn_advance_feature master
 20-clone locally or remotely
 git clone loacalpath
 git clone url--remotely
+
+21-git push// push to the remote repos 
